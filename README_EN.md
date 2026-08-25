@@ -9,7 +9,6 @@ Desktop notification plugin for dsh: get a native OS notification the moment the
 - Native desktop notification when a reply completes, with a preview of the reply text
 - Toggle lives in dsh Settings → General → "桌面完成通知"
 - Subagent background tasks stay silent — only the main conversation notifies
-- Zero dependencies; works on Windows / macOS / Linux
 
 ## Install
 
@@ -19,34 +18,23 @@ dsh plugin --profile web add dsh-desktop-notify
 
 Restart `dsh web` to activate.
 
-Or install from GitHub:
+## Uninstall
 
 ```bash
-dsh plugin --profile web add github:crazy-L118/dsh-desktop-notify
+dsh plugin --profile web rm dsh-desktop-notify
 ```
 
-## Usage
+## Contact
 
-After restarting, open **dsh Settings → General** and use the "桌面完成通知" toggle.
+Questions or suggestions? Feel free to reach out:
 
-To verify the notification channel:
+- Email: crazy_l118@icloud.com
 
-```bash
-node lib/index.js --self-test
-```
+## Sponsor
 
-## Configuration (optional)
+If this plugin helped you, consider buying me a ham sausage for dinner 🌭
 
-Advanced options in `~/.dsh/desktop-notify.json`:
-
-```json
-{
-  "enabled": true,
-  "title": "dsh · 回复完成",
-  "sound": true,
-  "preview": true
-}
-```
+![WeChat reward QR](assets/sponsor.jpg)
 
 ## License
 

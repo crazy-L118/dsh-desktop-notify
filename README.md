@@ -9,7 +9,6 @@ dsh 桌面通知插件：AI 完成回复时弹出系统桌面通知，切走干�
 - AI 回复完成时弹出系统原生通知，正文预览回复摘要
 - 开关在 dsh 设置 → 通用 →「桌面完成通知」
 - 子代理的后台任务完成不弹窗，只提醒主对话
-- 零依赖，支持 Windows / macOS / Linux
 
 ## 安装
 
@@ -19,34 +18,23 @@ dsh plugin --profile web add dsh-desktop-notify
 
 重启 `dsh web` 生效。
 
-也可以从 GitHub 安装：
+## 卸载
 
 ```bash
-dsh plugin --profile web add github:crazy-L118/dsh-desktop-notify
+dsh plugin --profile web rm dsh-desktop-notify
 ```
 
-## 使用
+## 联系
 
-重启后打开 **dsh 设置 → 通用**，用「桌面完成通知」开关控制启停。
+问题或建议，欢迎联系：
 
-验证通知通道可运行自测：
+- 邮箱：crazy_l118@icloud.com
 
-```bash
-node lib/index.js --self-test
-```
+## 赞助
 
-## 配置（可选）
+如果这个插件对你有帮助，可以给我的晚餐加一根火腿肠 🌭
 
-高级选项写入 `~/.dsh/desktop-notify.json`：
-
-```json
-{
-  "enabled": true,
-  "title": "dsh · 回复完成",
-  "sound": true,
-  "preview": true
-}
-```
+![赞赏码](assets/sponsor.jpg)
 
 ## 许可证
 
