@@ -1,0 +1,6 @@
+# dsh-desktop-notify bundle patch: inserts the desktop notifier plugin row
+# into the profile roster. Applied as a profile bundle layer (the
+# `dsh.bundle.patch` manifest field).
+- insert:
+    - id: desktop-notify
+      name: 'dsh-desktop-notify'
