@@ -21,7 +21,7 @@ dsh 桌面通知插件：AI 完成回复时弹出系统桌面通知，切走干�
 
 > 桌面通知与 HTTP 调用是两条独立通道：你可以只开桌面、只开 HTTP 调用，或两者都开。
 > 访问令牌保存在本机 `~/.dsh/desktop-notify.json`，只发往你填写的服务器地址。
-> 「图标地址」默认使用 DeepSeek Harness 官方黑色鲸鱼图标（jsDelivr 托管），留空即不发送 `icon` 字段；支持自定义为任意图片 URL，也支持「恢复默认」一键还原。
+> 「图标地址」默认使用插件内置的角色图（`assets/dsh-icon.jpg`），留空即不发送 `icon` 字段；支持自定义为任意图片 URL，也支持「恢复默认」一键还原。
 
 ## 界面截图
 
@@ -57,7 +57,6 @@ dsh plugin --profile web rm dsh-desktop-notify
 
 - 本项目与 DeepSeek / 深度求索**不存在隶属、合作或官方背书关系**，非官方出品。
 - 「DeepSeek Harness」为深度求索（DeepSeek）的注册商标，本插件在描述中仅作引用；插件名使用官方推荐的 DSH 缩写。
-- 黑色鲸鱼图标取自官方仓库 `deepseek-ai/deepseek-harness`（MIT 协议），仅作标识用途，版权归其各自所有者。
 - 开启「HTTP 调用」后，通知内容（标题与回复预览）会传输到你自行配置的推送服务；是否使用、使用哪家服务由你决定。
 
 ## 许可证

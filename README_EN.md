@@ -21,7 +21,7 @@ Want an "AI is done" nudge on another device while you're away from the computer
 
 > Desktop notification and HTTP call are two independent channels: enable either, or both.
 > The access token is stored locally in `~/.dsh/desktop-notify.json` and is only sent to the server URL you provide.
-> The **Icon URL** field defaults to the official DeepSeek Harness black-whale favicon (served via jsDelivr); leave it empty to omit the `icon` field entirely, set any image URL, or hit **Reset to default** to restore it.
+> The **Icon URL** field defaults to the bundled character image (`assets/dsh-icon.jpg`); leave it empty to omit the `icon` field entirely, set any image URL, or hit **Reset to default** to restore it.
 
 ## Screenshot
 
@@ -57,7 +57,6 @@ If this plugin helped you, consider buying me a ham sausage for dinner 🌭
 
 - This project is **not affiliated with, endorsed by, or sponsored by DeepSeek**.
 - "DeepSeek Harness" is a registered trademark of DeepSeek; it is referenced here descriptively. The plugin name uses the officially recommended DSH abbreviation.
-- The black-whale icon is taken from the official repository `deepseek-ai/deepseek-harness` (MIT license) and is used for identification only; copyright remains with its respective owners.
 - When **HTTP Call** is enabled, notification content (title and reply preview) is transmitted to the push service you configure; the choice of service is entirely yours.
 
 ## License
