@@ -7,8 +7,12 @@ Desktop notification plugin for dsh: get a native OS notification the moment the
 ## Features
 
 - Native desktop notification when a reply completes, with a preview of the reply text
-- Toggle lives in dsh Settings → General → "桌面完成通知"
+- Toggle in dsh Settings → General → **Desktop Notification on Done** (follows current UI language)
 - Subagent background tasks stay silent — only the main conversation notifies
+
+## Screenshot
+
+![Desktop Notification on Done settings](assets/settings-en.png)
 
 ## Install
 

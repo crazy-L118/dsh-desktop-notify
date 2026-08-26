@@ -33,7 +33,7 @@ description: 安装、卸载或检查 dsh 的桌面通知插件（dsh-desktop-no
 
 - **总开关**：dsh 设置 → 通用 → 「桌面完成通知」行内开关（插件向 `settings.general.item` 槽注册的原生偏好行）。
 - 高级选项：`~/.dsh/desktop-notify.json`（均可省略）：
-  `{ "enabled": true, "title": "dsh · 回复完成", "sound": true, "preview": true }`
+  `{ "enabled": true, "title": "dsh · Done", "sound": true, "preview": true }`
 
 ## 卸载
 
