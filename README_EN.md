@@ -53,6 +53,13 @@ If this plugin helped you, consider buying me a ham sausage for dinner 🌭
 
 ![WeChat reward QR](assets/sponsor.jpg)
 
+## Disclaimer
+
+- This project is **not affiliated with, endorsed by, or sponsored by DeepSeek**.
+- "DeepSeek Harness" is a registered trademark of DeepSeek; it is referenced here descriptively. The plugin name uses the officially recommended DSH abbreviation.
+- The black-whale icon is taken from the official repository `deepseek-ai/deepseek-harness` (MIT license) and is used for identification only; copyright remains with its respective owners.
+- When **HTTP Call** is enabled, notification content (title and reply preview) is transmitted to the push service you configure; the choice of service is entirely yours.
+
 ## License
 
 MIT

@@ -53,6 +53,13 @@ dsh plugin --profile web rm dsh-desktop-notify
 
 ![赞赏码](assets/sponsor.jpg)
 
+## 声明
+
+- 本项目与 DeepSeek / 深度求索**不存在隶属、合作或官方背书关系**，非官方出品。
+- 「DeepSeek Harness」为深度求索（DeepSeek）的注册商标，本插件在描述中仅作引用；插件名使用官方推荐的 DSH 缩写。
+- 黑色鲸鱼图标取自官方仓库 `deepseek-ai/deepseek-harness`（MIT 协议），仅作标识用途，版权归其各自所有者。
+- 开启「HTTP 调用」后，通知内容（标题与回复预览）会传输到你自行配置的推送服务；是否使用、使用哪家服务由你决定。
+
 ## 许可证
 
 MIT
