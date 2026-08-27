@@ -32,8 +32,8 @@ description: 安装、卸载或检查 dsh 的桌面通知插件（dsh-desktop-no
 ## 配置
 
 - **总开关**：dsh 设置 → 通用 → 「桌面完成通知」行内开关（插件向 `settings.general.item` 槽注册的原生偏好行）。
-- 高级选项：`~/.dsh/desktop-notify.json`（均可省略）：
-  `{ "enabled": true, "title": "dsh · Done", "sound": true, "preview": true }`
+- **多设备推送**：通用设置里的「HTTP 调用」面板支持添加多台设备（每台独立服务器/令牌/开关），完成事件会广播到所有启用且填了服务器地址的设备。
+- 高级选项：`~/.dsh/desktop-notify.json`（均可省略）。`push` 为对象，含 `enabled`、`icon` 与 `targets` 数组（每项 `{id,label,enabled,server,token,icon}`）；旧的单条 `push.server` 格式会被自动迁移成一条 target。
 
 ## 卸载
 
