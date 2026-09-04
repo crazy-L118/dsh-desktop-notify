@@ -31,13 +31,13 @@ Want an "AI is done" nudge on another device while you're away from the computer
 
 ## Install
 
-You must install the latest release **v1.4.0** (currently the latest); pin the version explicitly:
+You must install the latest release **v1.4.1** (currently the latest); pin the version explicitly:
 
 ```bash
-dsh plugin --profile web add dsh-desktop-notify@1.4.0
+dsh plugin --profile web add dsh-desktop-notify@1.4.1
 ```
 
-> Always include the `@1.4.0` version tag to be sure you get this latest release; using the bare package name installs `latest` and cannot guarantee 1.4.0.
+> Always include the `@1.4.1` version tag to be sure you get this latest release; using the bare package name installs `latest` and cannot guarantee 1.4.1.
 
 Restart `dsh web` to activate.
 
